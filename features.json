@@ -1,0 +1,74 @@
+{
+	"079be978-eb6f-4780-96bf-f0a6673934bf": {
+		"name": "Ambient temperature sensor",
+		"description": "The ability to measure the temperature outside the device",
+		"dt_type": "dt_ambient_temperature_C",
+		"data_type": "Ambient temperature",
+		"data_unit": "C",
+		"sensor": true
+	},
+	"6e504f97-1d15-4903-b554-818147d78e74": {
+		"name": "Atmospheric pressure sensor",
+		"description": "The ability to measure the atmospheric pressure outside the device",
+		"dt_type": "dt_atmospheric_pressure_Pa",
+		"data_type": "Atmospheric pressure",
+		"data_unit": "Pa",
+		"sensor": true
+	},
+	"d22721b7-c5cc-4d69-bfe7-50f11aaab845": {
+		"name": "Ambient light sensor",
+		"description": "The ability to measure the light intensity outside the device",
+		"dt_type": "dt_light_lx",
+		"data_type": "Ambient light intensity",
+		"data_unit": "lx",
+		"sensor": true
+	},
+	"ec2c01ff-22cd-4885-8473-117552229e9e": {
+		"name": "Light control",
+		"description": "The ability to control the behavior of a light fixture",
+		"dt_type": "dt_light_control",
+		"data_type": null,
+		"data_unit": null,
+		"sensor": false
+	},
+	"d14a6a68-972c-49ae-9269-149a275c50e3": {
+		"name": "Movement detection sensor",
+		"description": "The ability to detect movement outside the device",
+		"dt_type": "dt_movement_count",
+		"data_type": "Number of events detected since boot",
+		"data_unit": "",
+		"sensor": true
+	},
+	"abe4818a-dca6-4a59-9eae-6f548687675b": {
+		"name": "Relative humidity sensor",
+		"description": "The ability to measure the relative humidity outside the device",
+		"dt_type": "dt_humidity_pct",
+		"data_type": "Relative humidity",
+		"data_unit": "%",
+		"sensor": true
+	},
+	"710d349f-95cd-4569-9d85-0119dea6d21a": {
+		"name": "Secondary AC output",
+		"description": "The ability to actuate a secondary alternating current output line",
+		"dt_type": null,
+		"data_type": null,
+		"data_unit": null,
+		"sensor": false
+	},
+	"d8dcaa0b-27be-4e5a-b1aa-b97105341b9c": {
+		"name": "Internal temperature sensor",
+		"description": "The ability to measure the temperature inside the device",
+		"dt_type": "dt_temperature_C",
+		"data_type": "Internal temperature",
+		"data_unit": "C",
+		"sensor": true
+	},
+	"c7138dac-e2aa-4b23-89ef-1ecdbc51c1fe": {
+		"name": "Battery voltage sensor",
+		"description": "The ability to measure the voltage of the battery",
+		"dt_type": "dt_battery_V",
+		"data_type": "Battery voltage",
+		"data_unit": "V",
+		"sensor": true
+	}
+}
