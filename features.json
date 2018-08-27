@@ -42,7 +42,7 @@
 	"abe4818a-dca6-4a59-9eae-6f548687675b": {
 		"name": "Relative humidity sensor",
 		"description": "The ability to measure the relative humidity outside the device",
-		"dt_type": "dt_humidity_pct",
+		"dt_type": "dt_relative_humidity_pct",
 		"data_type": "Relative humidity",
 		"data_unit": "%",
 		"sensor": true
