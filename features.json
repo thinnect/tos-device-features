@@ -70,5 +70,13 @@
 		"data_type": "Battery voltage",
 		"data_unit": "V",
 		"sensor": true
+	},
+	"2fe22b08-0863-46ed-9cfe-bfb5f2aa5449": {
+		"name": "External temperature sensor",
+		"description": "The ability to measure temperature really outside the device",
+		"dt_type": "dt_external_temperature_C",
+		"data_type": "External temperature",
+		"data_unit": "C",
+		"sensor": true
 	}
 }
