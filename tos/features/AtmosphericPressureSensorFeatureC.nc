@@ -5,10 +5,13 @@
  * @license MIT
 */
 #include "DeviceAnnouncement.h"
-configuration AtmosphericPressureSensorFeatureC { }
+configuration AtmosphericPressureSensorFeatureC {
+	uses interface Get<bool> as Enabled;
+}
 implementation {
 
 	components AtmosphericPressureSensorFeatureP;
+	AtmosphericPressureSensorFeatureP.Enabled = Enabled;
 
 	components DeviceFeaturesC;
 	DeviceFeaturesC.SubDeviceFeatureUuid128[UQ_DEVICE_FEATURE_INDEX] -> AtmosphericPressureSensorFeatureP;
